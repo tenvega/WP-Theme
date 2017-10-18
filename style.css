@@ -91,3 +91,8 @@ article.post:last-of-type{
 article.page h2 {
   font-size: 300%;
 }
+
+/*Page Layout*/
+article.page h2{
+  font-size: 300%;
+}
