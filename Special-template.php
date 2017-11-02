@@ -1,5 +1,7 @@
 <?php
 
+/*Template Name: Special Layout*/
+
 get_header();
 
 if (have_posts()):
@@ -7,6 +9,12 @@ if (have_posts()):
 
 <article class="post page">
   <h2><?php the_title();?></h2>
+  <!--info-box-->
+  <div class="info-box">
+    <h4>Disclaimer Title</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non sapien ut orci iaculis accumsan vel eu sapien. Vivamus tincidunt est eros, vehicula volutpat diam cursus non. </p>
+  </div>
+  <!--info-box-->
   <?php the_content();?>
 </article>
 
